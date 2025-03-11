@@ -25,7 +25,7 @@ while True:
         if cv2.contourArea(contour) > 1500:  
             total_motion += cv2.contourArea(contour)
 
-    motion_detected = total_motion > 50000  
+    motion_detected = total_motion > 60000  
 
     try:
         analysis = DeepFace.analyze(frame, actions=['emotion'], enforce_detection=False)
