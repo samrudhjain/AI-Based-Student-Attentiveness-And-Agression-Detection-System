@@ -10,4 +10,3 @@ Motion Detection: Tracks movement using OpenCV’s background subtraction techni
 Each module runs independently and is integrated into a main script (main.py) that combines their outputs to determine the overall status of students. If a student appears inattentive (bored, sleepy) or aggressive (angry face, rapid movement), the system can trigger alerts.
 
 This project follows a modular approach, making it easy to extend and improve. It is built using Python, OpenCV, DeepFace, NumPy, and imutils. Future enhancements could include a web-based dashboard, notifications, and improved deep learning models for better accuracy.
-
