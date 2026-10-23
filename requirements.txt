@@ -1,0 +1,8 @@
+# Core dependencies for the Attentiveness & Aggression Detection System.
+# Install with:  pip install -r requirements.txt
+# Note: deepface installs TensorFlow automatically as its backend.
+
+opencv-python>=4.8
+deepface>=0.0.79
+imutils>=0.5.4
+numpy>=1.24
